@@ -1,5 +1,5 @@
-from apps.pages.search import set_input, check_result
-from apps.selectors.google import GoogleSearchPageSelectors
+from apps.pages.search.search_functions import set_input, check_result
+from apps.selectors.google.search_page_selectors import GoogleSearchPageSelectors
 from confest import open_browser
 
 
